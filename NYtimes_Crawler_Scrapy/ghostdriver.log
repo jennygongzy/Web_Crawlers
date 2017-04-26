@@ -1,0 +1,29 @@
+[INFO  - 2017-02-12T04:43:12.077Z] GhostDriver - Main - running on port 61770
+[INFO  - 2017-02-12T04:43:12.549Z] Session [c2a523e0-f0dd-11e6-9505-0186fa2bde25] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-02-12T04:43:12.549Z] Session [c2a523e0-f0dd-11e6-9505-0186fa2bde25] - page.customHeaders:  - {}
+[INFO  - 2017-02-12T04:43:12.549Z] Session [c2a523e0-f0dd-11e6-9505-0186fa2bde25] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-02-12T04:43:12.549Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c2a523e0-f0dd-11e6-9505-0186fa2bde25
+[ERROR - 2017-02-12T04:43:16.946Z] Session [c2a523e0-f0dd-11e6-9505-0186fa2bde25] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'lclVals.includes(loggedOut)')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-02-12T04:43:16.946Z] Session [c2a523e0-f0dd-11e6-9505-0186fa2bde25] - page.onError - stack:
+  eval code (undefined:22)
+  eval (:0)
+  globalEval (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:1)
+  domManip (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:2)
+  append (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:2)
+  renderInIframe (https://a1.nyt.com/assets/collection/20170203-150254/js/collection/main.js:2)
+  renderAdFromData (https://a1.nyt.com/assets/collection/20170203-150254/js/collection/main.js:2)
+  (anonymous function) (https://a1.nyt.com/assets/collection/20170203-150254/js/collection/main.js:2)
+  forEach (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:3)
+  (anonymous function) (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:4)
+  receiveAds (https://a1.nyt.com/assets/collection/20170203-150254/js/collection/main.js:2)
+  l (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:4)
+  trigger (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:4)
+  success (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:4)
+  l (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:2)
+  fireWith (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:2)
+  n (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:3)
+  (anonymous function) (https://a1.nyt.com/assets/collection/20170203-150254/js/foundation/main.js:3)
+
+  phantomjs://platform/console++.js:263 in error
